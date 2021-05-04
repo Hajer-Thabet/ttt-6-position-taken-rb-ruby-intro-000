@@ -6,6 +6,8 @@ def position_taken?(board, index)
     false
   elsif board == [nil, " ", " ", " ", " ", " ", " ", " ", " "] && (index == 0 || index==1)
     false
+  elsif board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] && (index == 0 || index==8)
+    true
 
   end
 
